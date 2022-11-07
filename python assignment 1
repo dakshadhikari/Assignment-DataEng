@@ -1,0 +1,208 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+ANS: 	Python is widely supported, human readable and easy to code. by the help of compiler or interpreter it's convert to machine i.e. binary language.
+
+
+Q2. Why is Python called a dynamically typed language?
+ANs: 	we don't need to declare the data type of variable, it assigned at run time according to data value.
+
+
+Q3. List some pros and cons of Python programming language?
+ANS: 	The pros of Python:
+	Python is easy to learn and read
+	Python enhances productivity
+	Python has a vast collection of libraries
+
+	The cons of python programming language
+	While your program runs in Python, it has to do more work in line-by-line execution, so the process will be slow. 
+	Python consumes a lot of memory space
+
+
+Q4. In what all domains can we use Python?
+ANS:	Web development
+	Data science
+	OS development
+	Scientific programming
+
+
+Q5. What are variable and how can we declare them?
+ANS:	variables are the name of memory location which contains inputed data.
+
+	DATA_TYPE VARIABLE__NAME = VALUE
+e.g.  	int a = 10; 		----	in C#
+	int_var	= 10		--	in python
+
+
+Q6. How can we take an input from the user in Python?
+ANS:	we can take input by using input function, user can set value through output terminal.
+
+E.g.	a = input("ENTER SOME WORD!!")	
+	
+	#	than we can print that value using print function.
+	print(a) 
+	
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+ANS:	string
+
+
+Q8. What is type casting?
+ANS:  convert one datatype to another
+
+E.g.   a = 10.12
+	b= int(a)
+
+	output: 10
+
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+ANS:	NO, we can put one input at a time 
+
+
+Q10. What are keywords?
+ANS: Python keywords are special reserved words that have specific meanings and purposes and can't be used for anything but those specific purposes.
+
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+ANS: NO, we can't use keywords as varible because keywords are special reserved words that have specific meanings and purposes.
+e.g. if,elif,else
+
+
+Q12. What is indentation? What's the use of indentaion in Python?
+ANS:	a tab(4 space) from the left side of screen is indentation, it is used to provide statement of blocks.
+e.g.
+
+if(conditon):
+	statements
+
+
+
+Q13. How can we throw some output in Python?
+ANS: Using print function.
+
+
+Q14. What are operators in Python?
+ANS: operators are used to get a solution using one variable or more i.e. +,-,*,%,/
+
+
+Q15. What is difference between / and // operators?
+ANS:	/	division with float output
+	//	division with int output
+
+
+Q16. Write a code that gives following as an output.
+```
+ANS:	a= 'iNeuron'
+	b= a* 4
+	print(a * 4)
+iNeuroniNeuroniNeuroniNeuron
+```
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+ANS:	
+	b= int(input("enter a number"))
+
+	if(b%2 == 1):
+    		print("Number:",b,"is odd.")
+	else:
+    		print("Number:",b,"is even.")
+
+
+Q18. What are boolean operator?
+ANS:	True or False
+
+Q19. What will the output of the following?
+```
+1 or 0 = 1
+
+0 and 0 = 0
+
+True and False and True = False
+
+1 or 0 or 0 = 1
+```
+
+Q20. What are conditional statements in Python?
+ANS:	
+	decision making statement , if one ans isn't true than other answer.
+
+e.g.   if else statements
+
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+ANS:	decision making statement,if expression satisfy first condition than code stop there,
+	if not true, than move to 2nd cond. and go on.
+
+e.g.
+b= int(input("enter marks of student:"))
+
+if(b >= 70):
+    print("Number:",b,"are good.")
+elif(b<70 and b>=40):
+    print("Number:",b,"are average.")
+else:
+    print("Number:",b,"are poor.")
+
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+ANS:	
+age = int(input("age of person: "))
+
+if(age >= 18):
+    print("I can vote")
+
+else:
+    print("I can't vote")
+
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+ANS:
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+a = numbers[0]+ numbers[2] + numbers[3] +numbers[6]
+print(a)
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+ANS:
+
+number_1 = int(input("Enter first number: "))
+number_2 = int(input("Enter Second number: "))
+number_3 = int(input("Enter third number: "))
+
+if(number_1 >   number_2):
+    if(number_1 >   number_3):
+        print("number_1 ",number_1,"is greatest")
+    else:
+        print("number_3 ",number_3,"is greatest")
+elif(number_1   <   number_2):
+    if(number_2 >   number_3):
+        print("number_2 ",number_2,"is greatest")
+    else:
+        print("number_3 ",number_3,"is greatest")
+
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+
+ANS: we might need to use array and loop here,so i will pick once we move to those topics.
+
+	please advice me if we can proceed without it.
+thanks
+
+
+
+
+
+
+```
